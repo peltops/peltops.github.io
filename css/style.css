@@ -58,7 +58,7 @@
   text-transform: uppercase;
   margin-right: 20px;
   font-weight: 700;
-  color: black !important;
+  color: white !important;
 }
 .navbar-toggler span {
   color: black !important;
@@ -154,7 +154,11 @@
     color: white !important;
   }
   .jumbotron {
-    margin-top: -120px;
+    margin-top: 0px;
+  }
+  .nav-cus {
+    margin-top: -50px;
+    position: absolute;
   }
   .contact-list p {
     text-align: left;
