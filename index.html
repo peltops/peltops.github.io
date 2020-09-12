@@ -1,136 +1,253 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Peltops</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Nunito:400,600,700"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Dosis:400,600,700"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="”stylesheet”"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Lekton:400,700,400italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-
-    <link rel="stylesheet" href="css/pe-icon-7-stroke.css" />
-    <link rel="stylesheet" href="css/iconmoon.css" />
-
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="icon" href="img/peltops.png" />
+    <title>Peltops</title>
   </head>
   <body>
+    <div class="splash">
+      <div class="fade-in">
+        <img src="/img/peltops.png" alt="Peltops" width="20%" />
+        <h1>Welcome To Peltops</h1>
+      </div>
+    </div>
     <div class="container">
-      <div class="splash">
-        <div class="fade-in">
-          <img src="/img/peltops.png" alt="Peltops" width="20%" />
-          <h1>Welcome To Peltops</h1>
-        </div>
-      </div>
-    </div>
-    <div class="container" id="halaman1">
-      <div class="header">
-        <div class="container">
-          <div class="logo">
-            <a href="index.html">
-              <img
-                src="img/peltops.png"
-                width="60"
-                height="60"
-                alt="Peltops-Logo"
-              />
-            </a>
-          </div>
-
-          <button class="main-menu-indicator" id="open-button">
-            <span class="line"></span>
+      <header class="head my-3">
+        <nav class="navbar navbar-expand-lg navbar-light head__custom-nav">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="img/peltops.png"
+              alt="website logo"
+              width="60px"
+              height="60px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+          >
+            <span class="menu-btn">MENU</span>
           </button>
-
-          <div class="menu-wrap" style="background-color: black; opacity: 95%">
-            <div class="menu-content">
-              <div class="navigation">
-                <span class="pe-7s-close close-menu" id="close-button"></span>
-              </div>
-              <nav class="menu">
-                <div class="menu-list">
-                  <ul>
-                    <li style="margin-top: -40px">
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li><a href="src/about/index.html">About Us</a></li>
-                    <li>
-                      <a href="src/service/index.html">Product and Service</a>
-                    </li>
-                    <li>
-                      <a href="src/activity/index.html">Activity</a>
-                    </li>
-                    <li><a href="src/contact/index.html">Contact</a></li>
-                  </ul>
-                </div>
-              </nav>
-
-              <div class="hidden-xs">
-                <div class="menu-social-media">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="iconmoon-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="iconmoon-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="iconmoon-dribbble3"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="iconmoon-pinterest"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="iconmoon-linkedin2"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+          <div
+            class="collapse navbar-collapse justify-content-end custom-navbar"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#activity">Activity</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="index.html#contact"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <div class="jumbotron jumbotron-fluid" id="home">
+      <div class="container banner">
+        <h1 class="display-4 name-logo">Peltops</h1>
+        <p class="lead">
+          This is a modified jumbotron that occupies the entire horizontal space
+          of its parent.
+        </p>
+        <div class="row custom-btn-banner">
+          <a class="btn" href="index.html#about" role="button">Learn more</a>
+          <a class="btn" href="index.html#contact" role="button">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="container banner-div" id="about">
+      <h1 class="text-center">About Us</h1>
+      <div class="row">
+        <div class="col-6 col-md-4 mx-auto">
+          <img
+            src="img/peltops.png"
+            alt="website logo"
+            width="240px"
+            height="240px"
+          />
+        </div>
+        <div class="col-12 col-md-8">
+          <p>
+            .n case you are new to the UI/UX design world or you have spent the
+            last year of your life on a desert island, Adobe XD (aka Experience
+            Design) is a new design and prototyping tool developed by Adobe. By
+            using one unique powerful tool, XD allows you to easily wireframe,
+            design and prototype web & mobile products and experiences. Adobe XD
+            was previously known as “Project Comet” and was launched in February
+            2016, as a preview version and only for Mac, with a very limited
+            amount of features. Month after month, Adobe released new updates,
+            adding more and more features based on the feedback received by its
+            growing user base. At the time of writing this guide (Aug 2017),
+            Adobe XD has grown into a solid and fast piece of software,
+            available as a Beta version for Mac OS, Windows 10, iOS and Android.
+            Adobe has yet to disclose when the Beta testing period will be over
+            and the full version of XD will be released.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container banner-div" id="service">
+      <h1 class="text-center">Our Service</h1>
+      <div class="row">
+        <div class="col-6 col-md-4 mx-auto">
+          <img
+            src="img/Asset 4.svg"
+            alt="website logo"
+            width="260px"
+            height="260px"
+          />
+        </div>
+        <div class="col-12 col-md-8">
+          <p>
+            .n case you are new to the UI/UX design world or you have spent the
+            last year of your life on a desert island, Adobe XD (aka Experience
+            Design) is a new design and prototyping tool developed by Adobe. By
+            using one unique powerful tool, XD allows you to easily wireframe,
+            design and prototype web & mobile products and experiences. Adobe XD
+            was previously known as “Project Comet” and was launched in February
+            2016, as a preview version and only for Mac, with a very limited
+            amount of features. Month after month, Adobe released new updates,
+            adding more and more features based on the feedback received by its
+            growing user base. At the time of writing this guide (Aug 2017),
+            Adobe XD has grown into a solid and fast piece of software,
+            available as a Beta version for Mac OS, Windows 10, iOS and Android.
+            Adobe has yet to disclose when the Beta testing period will be over
+            and the full version of XD will be released.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container banner-div" id="activity">
+      <h1 class="text-center">Our Activity</h1>
+      <div class="row">
+        <div class="col-6 col-md-4 mx-auto">
+          <img
+            src="img/Asset 2.svg"
+            alt="website logo"
+            width="260px"
+            height="260px"
+          />
+        </div>
+        <div class="col-12 col-md-8">
+          <p>
+            .n case you are new to the UI/UX design world or you have spent the
+            last year of your life on a desert island, Adobe XD (aka Experience
+            Design) is a new design and prototyping tool developed by Adobe. By
+            using one unique powerful tool, XD allows you to easily wireframe,
+            design and prototype web & mobile products and experiences. Adobe XD
+            was previously known as “Project Comet” and was launched in February
+            2016, as a preview version and only for Mac, with a very limited
+            amount of features. Month after month, Adobe released new updates,
+            adding more and more features based on the feedback received by its
+            growing user base. At the time of writing this guide (Aug 2017),
+            Adobe XD has grown into a solid and fast piece of software,
+            available as a Beta version for Mac OS, Windows 10, iOS and Android.
+            Adobe has yet to disclose when the Beta testing period will be over
+            and the full version of XD will be released.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container banner-div" id="contact">
+      <h1 class="text-center">Contact</h1>
+      <div class="row">
+        <div class="col-6 col-md-4 mx-auto">
+          <img
+            src="img/Asset 1.svg"
+            alt="website logo"
+            width="260px"
+            height="260px"
+          />
+        </div>
+        <div class="col-12 col-md-8 mx-auto">
+          <div class="row contact-list">
+            <div>
+              <img
+                src="img/005-whatsapp.svg"
+                alt=""
+                width="40px"
+                height="40px"
+              />
             </div>
+            <div class="col-sm"><p>+6258462148515</p></div>
+          </div>
+          <div class="row contact-list">
+            <div>
+              <img
+                src="img/029-instagram.svg"
+                alt=""
+                width="40px"
+                height="40px"
+              />
+            </div>
+            <div class="col-sm"><p>@peltops</p></div>
+          </div>
+          <div class="row contact-list">
+            <div>
+              <img
+                src="img/001-youtube.svg"
+                alt=""
+                width="40px"
+                height="40px"
+              />
+            </div>
+            <div class="col-sm"><p>youtube/peltops</p></div>
           </div>
         </div>
       </div>
-      <div class="banner">
-        <h1>Peltops</h1>
-        <p>Here’s what you need to know before getting started with ...</p>
-        <button
-          type="button"
-          class="btn-left"
-          onclick="document.location.href='src/about/index.html'"
-        >
-          About Us
-        </button>
-        <button
-          type="button"
-          class="btn-right"
-          onclick="document.location.href='src/contact/index.html'"
-        >
-          Contact Us
-        </button>
-      </div>
     </div>
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/classie.js"></script>
+    <!-- Optional JavaScript -->
     <script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
