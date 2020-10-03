@@ -28,224 +28,114 @@
     <div class="splash">
       <div class="fade-in">
         <img src="/img/peltops.png" alt="Peltops" width="20%" />
-        <h1>Welcome To Peltops</h1>
       </div>
     </div>
-    <div class="jumbotron" id="home">
-      <div class="container nav-cus">
+    <div class="backgro">
+      <div class="container-fluid ">
         <header class="head my-3">
-          <nav class="navbar navbar-expand-lg navbar-light head__custom-nav">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-              <img
-                src="img/peltops.png"
-                alt="website logo"
-                width="60px"
-                height="60px"
-              />
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand d-flex align-items-center" href="../">
+              <div class="mx-auto box-logo">
+                <img
+                  src="img/peltops.png"
+                  alt="website logo"
+                  width="45px"
+                  height="45px"
+                />
+              </div>
             </a>
             <button
               class="navbar-toggler"
-              type="button"
+              id = "menu-toggler"
+              type="button" 
+              id = "menu-toggler" 
               data-toggle="collapse"
               data-target="#navbarNav"
             >
-              <span class="menu-btn"
-                ><img src="img/list2.png" alt="menu" width="30px"
+              <span
+                ><img src="img/list2.png"alt="menu" width="30px"
               /></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-end custom-navbar"
+              class="collapse navbar-collapse justify-content-end text-center"
               id="navbarNav"
             >
-              <ul class="navbar-nav">
+              <ul class="navbar-nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html#home">Home</a>
+                  <a class="nav-link" href="../">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html#about">About us</a>
+                  <a                     data-localize="navtrans.nav_tentang"
+                  class="nav-link" href="src/about/">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html#service">Service</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html#activity">Activity</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-primary" href="index.html#contact"
-                    >Contact us</a
+                  <a                     data-localize="navtrans.nav_komitmen"
+                  class="nav-link" href="src/komitmen/"
+                    >commitment</a
                   >
+                </li>
+                <li class="nav-item dropdown">
+                  <a                     data-localize="navtrans.nav_produk"
+                  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Product
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a                       data-localize="navtrans.nav_produk_kesehatan"
+                    class="dropdown-item" href="src/produk/kesehatan/">Health</a>
+                    <a                       data-localize="navtrans.nav_produk_eposyandu"
+                    class="dropdown-item" href="src/produk/eposyandu/">E-Posyandu</a>
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-localize="navtrans.nav_layanan"
+                  >
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a                       data-localize="navtrans.nav_layanan_webinar"
+                    class="dropdown-item" href="src/layanan/webinar/">Webinar</a>
+                    <a                       data-localize="navtrans.nav_layanan_pelatihan"
+                    class="dropdown-item" href="src/layanan/pelatihan/">Training</a>
+                  </div>
+                </li>
+                <li class="nav-item header-end">
+                  <a                     data-localize="navtrans.nav_kontak"
+                  class="nav-link" href="src/kontak/">Contact</a>
                 </li>
               </ul>
             </div>
           </nav>
         </header>
       </div>
-      <div class="container banner">
-        <h1 class="display-4 name-logo">Peltops</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
+      <div class="jumbotron" id="home">
+        <div class="container banner">
+          <h1 class="display-4 name-logo">Peltops</h1>
+          <p data-localize="home_pgTrans.body_desc" class="lead">
+            A company that engaged in technology, especially Artificial Intelligence..
+          </p>
+          <div class="row custom-btn-banner">
+            <a data-localize="home_pgTrans.tombol" class="btn" href="src/about/" role="button">About Us</a>
+            <!-- <a class="btn" href="src/contact/" role="button">Contact Us</a> -->
+          </div>
+        </footer>
+        <p  id="copyright"      
+        >
+          Copyright © 2020 Peltops.com
         </p>
-        <div class="row custom-btn-banner">
-          <a class="btn" href="index.html#about" role="button">Learn more</a>
-          <a class="btn" href="index.html#contact" role="button">Contact Us</a>
-        </div>
-      </div>
+      </footer>
     </div>
-    <div class="container banner-div" id="about">
-      <h1 class="text-center">About Us</h1>
-      <div class="row">
-        <div class="col-6 col-md-4 mx-auto">
-          <img
-            src="img/peltops.png"
-            alt="website logo"
-            width="240px"
-            height="240px"
-          />
-        </div>
-        <div class="col-12 col-md-8">
-          <p>
-            .n case you are new to the UI/UX design world or you have spent the
-            last year of your life on a desert island, Adobe XD (aka Experience
-            Design) is a new design and prototyping tool developed by Adobe. By
-            using one unique powerful tool, XD allows you to easily wireframe,
-            design and prototype web & mobile products and experiences. Adobe XD
-            was previously known as “Project Comet” and was launched in February
-            2016, as a preview version and only for Mac, with a very limited
-            amount of features. Month after month, Adobe released new updates,
-            adding more and more features based on the feedback received by its
-            growing user base. At the time of writing this guide (Aug 2017),
-            Adobe XD has grown into a solid and fast piece of software,
-            available as a Beta version for Mac OS, Windows 10, iOS and Android.
-            Adobe has yet to disclose when the Beta testing period will be over
-            and the full version of XD will be released.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container banner-div" id="service">
-      <h1 class="text-center">Our Service</h1>
-      <div class="row">
-        <div class="col-6 col-md-4 mx-auto">
-          <img
-            src="img/Asset 4.svg"
-            alt="website logo"
-            width="260px"
-            height="260px"
-          />
-        </div>
-        <div class="col-12 col-md-8">
-          <p>
-            .n case you are new to the UI/UX design world or you have spent the
-            last year of your life on a desert island, Adobe XD (aka Experience
-            Design) is a new design and prototyping tool developed by Adobe. By
-            using one unique powerful tool, XD allows you to easily wireframe,
-            design and prototype web & mobile products and experiences. Adobe XD
-            was previously known as “Project Comet” and was launched in February
-            2016, as a preview version and only for Mac, with a very limited
-            amount of features. Month after month, Adobe released new updates,
-            adding more and more features based on the feedback received by its
-            growing user base. At the time of writing this guide (Aug 2017),
-            Adobe XD has grown into a solid and fast piece of software,
-            available as a Beta version for Mac OS, Windows 10, iOS and Android.
-            Adobe has yet to disclose when the Beta testing period will be over
-            and the full version of XD will be released.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container banner-div" id="activity">
-      <h1 class="text-center">Our Activity</h1>
-      <div class="row">
-        <div class="col-6 col-md-4 mx-auto">
-          <img
-            src="img/Asset 2.svg"
-            alt="website logo"
-            width="260px"
-            height="260px"
-          />
-        </div>
-        <div class="col-12 col-md-8">
-          <p>
-            .n case you are new to the UI/UX design world or you have spent the
-            last year of your life on a desert island, Adobe XD (aka Experience
-            Design) is a new design and prototyping tool developed by Adobe. By
-            using one unique powerful tool, XD allows you to easily wireframe,
-            design and prototype web & mobile products and experiences. Adobe XD
-            was previously known as “Project Comet” and was launched in February
-            2016, as a preview version and only for Mac, with a very limited
-            amount of features. Month after month, Adobe released new updates,
-            adding more and more features based on the feedback received by its
-            growing user base. At the time of writing this guide (Aug 2017),
-            Adobe XD has grown into a solid and fast piece of software,
-            available as a Beta version for Mac OS, Windows 10, iOS and Android.
-            Adobe has yet to disclose when the Beta testing period will be over
-            and the full version of XD will be released.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container banner-div" id="contact">
-      <h1 class="text-center">Contact</h1>
-      <div class="row">
-        <div class="col-6 col-md-4 mx-auto">
-          <img
-            src="img/Asset 1.svg"
-            alt="website logo"
-            width="260px"
-            height="260px"
-          />
-        </div>
-        <div class="col-12 col-md-8 mx-auto">
-          <div class="row contact-list">
-            <div>
-              <img
-                src="img/005-whatsapp.svg"
-                alt=""
-                width="40px"
-                height="40px"
-              />
-            </div>
-            <div class="col-sm"><p>+6258462148515</p></div>
-          </div>
-          <div class="row contact-list">
-            <div>
-              <img
-                src="img/029-instagram.svg"
-                alt=""
-                width="40px"
-                height="40px"
-              />
-            </div>
-            <div class="col-sm"><p>@peltops</p></div>
-          </div>
-          <div class="row contact-list">
-            <div>
-              <img
-                src="img/001-youtube.svg"
-                alt=""
-                width="40px"
-                height="40px"
-              />
-            </div>
-            <div class="col-sm"><p>youtube/peltops</p></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <p class="text-center" style="margin-top: 50px">
-        Peltops @Copyright 2020
-      </p>
-    </footer>
     <!-- Optional JavaScript -->
-    <script src="js/main.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
+    <script src="js/jquery.localize.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/lang.en.js"></script> -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"

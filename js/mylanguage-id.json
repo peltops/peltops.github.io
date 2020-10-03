@@ -1,0 +1,43 @@
+{
+  "navtrans": {
+    "nav_tentang": "Tentang",
+    "nav_komitmen": "Komitmen",
+    "nav_produk": "Produk",
+    "nav_produk_kesehatan": "Kesehatan",
+    "nav_produk_eposyandu": "E-Posyandu",
+    "nav_layanan": "Layanan",
+    "nav_layanan_webinar": "Webinar",
+    "nav_layanan_pelatihan": "Pelatihan",
+    "nav_kontak": "Kontak"
+  },
+
+  "home_pgTrans": {
+    "body_desc": "Perusahaan yang bergerak dalam bidang teknologi khususnya Artificial intellegence.",
+    "tombol": "Tentang Kami"
+  },
+
+  "about_pgTrans": {
+    "judul1": "Tentang Kami",
+    "desc": "<strong>Peltops</strong> adalah sebuah organisasi / company yang bergerak dalam bidang teknologi khususnya Artificial intellegence (kecerdasan buatan). Peltops memiliki tujuan yaitu untuk membantu dan mempermudah manusia khususnya dalam bidang kesehatan dan budaya.",
+    "judul2": "Tim Kami"
+  },
+
+  "komitmen_pgTrans": {
+    "judul1": "Komitmen Kami"
+  },
+
+  "kontak_pgTrans": {
+    "judul1": "Kontak Kami"
+  },
+
+  "webinar_pgTrans": {
+    "subjudul1": "Pemrosesan Teks (NLP) Menggunakan Kecerdasan Buatan",
+    "desc1": "Webinar dengan judul 'Pemrosesan Teks (NLP) Menggunakan Kecerdasan Buatan' telah dilaksanakan pada tanggal 29 Agustus 2020 secara online dan diikuti oleh sekitar 17 orang peserta yang terdiri dari mahasiswa dan dosen dari Unsyiah dan Unsam. Webinar berlangsung selama 2 jam."
+  },
+
+  "pelatihan_pgTrans": {
+    "judul1": "Pelatihan",
+    "subjudul1": "Training Flutter untuk Pemula",
+    "desc1": "Training flutter untuk pemula sudah dilaksanakan pada tgl 26 September 2020 Proses seleksi peserta telah dilakukan pada tanggal 8-17 september 2020 melalui seleksi berkas dan wawancara. Peserta yang mendaftar ada sekitar 16 orang yang masih berstatus mahasiswa maupun alumni."
+  }
+}

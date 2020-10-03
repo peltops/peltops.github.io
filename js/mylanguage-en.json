@@ -1,0 +1,41 @@
+{
+  "navtrans": {
+    "nav_tentang": "About",
+    "nav_komitmen": "commitment",
+    "nav_produk": "Product",
+    "nav_produk_kesehatan": "Health",
+    "nav_produk_eposyandu": "E-Posyandu",
+    "nav_layanan": "Services",
+    "nav_layanan_webinar": "Webinar",
+    "nav_layanan_pelatihan": "Training",
+    "nav_kontak": "Contact"
+  },
+
+  "home_pgTrans": {
+    "body_desc": "A company that engaged in technology, especially Artificial Intelligence.",
+    "tombol": "About Us"
+  },
+
+  "about_pgTrans": {
+    "judul1": "About Us",
+    "desc": "<strong>Peltops</strong> is a company engaged in technology, especially Artificial Intelligence. Peltops has a goal that is to help and facilitate people, especially in the fields of health and culture.",
+    "judul2": "Our Teams"
+  },
+
+  "komitmen_pgTrans": {
+    "judul1": "Our Commitment"
+  },
+  "kontak_pgTrans": {
+    "judul1": "Contact Us"
+  },
+  "webinar_pgTrans": {
+    "subjudul1": "Text Processing (NLP) Using Artificial Intelligence",
+    "desc1": "The webinar entitled 'Text Processing (NLP) Using Artificial Intelligence' was held online on August 29, 2020, and was attended by around 17 participants consisting of students and lecturers from Unsyiah and Unsam. This activity lasts for 2 hours."
+  },
+
+  "pelatihan_pgTrans": {
+    "judul1": "Training",
+    "subjudul1": "Flutter for Beginners",
+    "desc1": "Flutter for beginners was held on 26 September 2020 The selection process for participants was carried out on 8-17 September 2020 through file selection and interviews. There are about 16 participants who registered who were still students and alumni."
+  }
+}
