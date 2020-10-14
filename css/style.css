@@ -63,6 +63,9 @@
 .nav-link:hover {
   color: rgb(182, 247, 176) !important;
 }
+.dropdown-item {
+  cursor: pointer;
+}
 .dropdown-menu {
   border: 0px;
   background: transparent;
@@ -71,6 +74,12 @@
 .dropdown-menu a:hover {
   background: transparent;
   color: rgb(182, 247, 176) !important;
+}
+#dropdownMenuButton {
+  background-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .dropdown-menu a {
   color: white !important;
